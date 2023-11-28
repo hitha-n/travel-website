@@ -1,0 +1,558 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ECF4D6;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1000;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1 ) ;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color:#265073;
+    font-weight: bolder;
+    margin-right: 300px; 
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #265073;
+}
+header .logo span{
+    color: #A2C579;
+    text-shadow: 2px 2px 4px #A2C579;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px; 
+}
+
+.bar-text {
+    font-size: 4.2em;
+    color: #A2C579;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: #A2C579;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 15px;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+    
+}
+
+.navbar a:hover {
+    color: #265073;
+}
+
+/* Home Starts*/
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5); 
+}
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5; 
+}
+.Home .content{
+    max-width: 60rem;
+    text-align: center; 
+    color: #ECF4D6;
+}
+.Home .content h3{
+    font-size: 4rem;
+    color: #ECF4D6;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.Home .content span{
+    font-size: 3.5rem;
+    color:#ECF4D6;
+    padding: 1rem 0;
+    line-height: 1.5;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+.Home .content .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    color: #fff;
+    border: 2px solid #4CAF50; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.Home .content .btn:hover {
+    background-color: #45a049; 
+}
+/*Home ends*/
+
+.booking-box {
+    padding: 30px;
+}
+
+.row.align-items-center {
+    min-height: 60px;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+.box select,
+.box input,
+.btn-primary {
+    border-radius: 5px;
+    border: 2px solid #ced4da; 
+}
+.box select:focus,
+.box input:focus {
+    border-color: #28a745; 
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.date {
+    padding: 0 15px;
+}
+
+.btn-primary {
+    background-color: #28a745; 
+    color: #fff; 
+    border: 2px solid #28a745; 
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #218838; 
+}
+
+/*About Start*/
+.About .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+
+
+
+.About .row .image-container {
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.About .row .image-container img {
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.About .row .image-container h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: #A2C579;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.About .row .content {
+    flex: 1 1 40rem;
+}
+
+.About .row .content h3 {
+    font-size: 3rem;
+    color:#A2C579 ;
+    text-shadow: 2px 2px 4px #A2C579;
+
+}
+
+.About .row .content p {
+    font-size: 1.5rem;
+    color: #265073;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+}
+
+.About .row .content .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: 2px solid #4CAF50; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.About .row .content .btn:hover {
+    background-color: #45a049;
+}
+.About h1.heading {
+    background-color: #ECF4D6; 
+    color: #A2C579; 
+    padding: 1rem; 
+    border-radius: 0rem; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px #A2C579; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+}
+
+.About h1.heading span {
+    color: #265073; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #265073; 
+}
+
+/*About End*/
+
+/*Services Start*/
+
+.icons-container{
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.icons-container .icons{
+    background: #eee;
+    border: 1rem solid rgba(0,0,0,.1 );
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 25rem;
+}
+.icons-container .icons img{
+    height: 5rem;
+    margin-right: 2rem;
+}
+.icons-container .icons h3{
+    color: #A2C579;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px #A2C579; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+}
+.icons-container .icons span{
+    color: #265073;
+    font-size: 1.3rem;
+    
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+}
+.Services h1.heading {
+    background-color: #ECF4D6; 
+    color: #A2C579; 
+    padding: 1rem; 
+    border-radius: 0rem; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px #A2C579; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+}
+/*Services End*/
+
+/*Tour packages start*/
+.TourPackages h1.heading {
+    background-color: #ECF4D6; 
+    color: #265073; 
+    padding: 1rem; 
+    border-radius: 0rem; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px #265073; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+}
+
+.TourPackages h1.heading span {
+    color: #A2C579; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #A2C579; 
+}
+.TourPackages .box-container .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.TourPackages .box-container .box .discount {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .7rem 1rem;
+    font-size: 2rem;
+    color: #4CAF50; 
+    background: #ECF4D6; 
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+.TourPackages .box-container .box .image {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.TourPackages .box-container .box .image img {
+    height: 25rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.TourPackages .box-container .box:hover .image img {
+    transform: scale(1.1);
+}
+
+
+
+.TourPackages .box-container .box:hover .image .icons {
+    bottom: 0;
+}
+
+.TourPackages .box-container .box .image .icons i {
+    font-size: 2rem;
+    color: #000000; 
+}
+
+.TourPackages .box-container .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.TourPackages .box-container .box .content h3 {
+    font-size: 2.5rem;
+    color: #265073;
+    font-weight: bolder;
+}
+
+.TourPackages .box-container .box .content .price {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.TourPackages .box-container .box .content .price span {
+    font-size: 1.5rem;
+    color: #A2C579;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.TourPackages .box-container .box .image .icons span {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 0.5rem;
+    background: #ECF4D6; 
+    padding: 0.5rem; 
+    border-radius: 0.5rem; 
+}
+
+.TourPackages .box-container .box .image .icons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 0.5rem;
+}
+.TourPackages .box-container .box .image .icons i,
+.TourPackages .box-container .box .image .icons span {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+}
+
+.TourPackages .box-container .box .image .icons .calendar,
+.TourPackages .box-container .box .image .icons .user {
+    width: 40%;
+}
+
+.TourPackages .box-container .box .image .icons .user {
+    margin-left: auto;
+    margin-right: 0; 
+}
+/*Tour packages end*/
+
+/*Contact*/
+.Contact h1.heading {
+    background-color: #ECF4D6; 
+    color: #A2C579; 
+    padding: 1rem; 
+    border-radius: 0rem; 
+    text-align: center; 
+    text-shadow: 2px 2px 4px #A2C579; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+}
+
+.Contact h1.heading span {
+    color: #265073; 
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #265073; 
+}
+.Contact .row{
+    display:flex;
+    flex-wrap:wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+}
+.Contact .row form{
+    flex:1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1 );
+    border: .1rem solid rgba(0,0,0,.1 );
+    background: #ECF4D6;
+    border-radius: .5rem;
+}
+.Contact .row .image{
+  flex: 1 1 40rem;
+}
+.Contact .row .image img{
+    width: 100%;
+}
+.Contact .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #265073;
+    text-transform: none;
+    border: .1rem solid rgba(0,0,0,.1 );
+    border-radius: .5rem;
+    margin: .7rem 0;
+}
+.Contact .row form .box:focus{
+    border-color: #A2C579;
+}
+.Contact .row form textarea{
+    height: 12rem;
+    resize:none ;
+}
+.Contact .row form .btn {
+    background-color: #45a049;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Contact .row form .btn:hover {
+    background-color: #218838; 
+}
+
+/*Contact End*/
+
+/*Footer Start*/
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    flex: 1 1 25rem;
+    background-color: #eee; 
+    padding: 2rem; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.footer .box-container .box h3 {
+    color: #265073;
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    font-weight: bolder; 
+}
+
+.footer .box-container .box a {
+    display: block;
+    color: #A2C579;
+    font-size: 1.4rem; 
+    margin-bottom: 0.5rem; 
+    font-weight: bold;
+}
+
+.footer .box-container .box a:hover {
+    color: #218838;
+    text-decoration: underline;
+}
+/*Footer end*/

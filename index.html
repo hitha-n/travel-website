@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderLoom</title>
+
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/locales/bootstrap-datepicker.en-GB.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+  
+   <a href="#" class="logo">
+    <img src="C:\Users\HITHA\OneDrive\Documents\webpage\image\vecteezy_beach-island-landscape-logo-beach-logo-design-vector_6626965.jpg" alt="WanderLoom Logo">
+    Wander<span>Loom</span>
+</a>
+   <nav class="navbar">
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Services">Services</a>
+      <a href="#TourPackages">Tour Packages</a>
+      <a href="#Contact">Contact</a>
+   </nav>
+  </header>
+
+<!-- Home Starts-->
+<section class="Home" id="Home">
+    <img class="bg-image" src="" alt="Background Image">
+    <div class="content">
+        <h3>Adventure Begins!</h3>
+        <span>Embark On Unforgettable Journeys</span>
+        <a href="#" class="btn">Book Now</a>
+    </div>
+</section>
+
+
+  <!---Home ends-->
+      <!-- Booking Start -->
+      <div class="container-fluid booking mt-5 pb-5">
+          <div class="container pb-5">
+              <div class="booking-box bg-light shadow">
+                  <div class="row align-items-center">
+                      <div class="col-md-3">
+                          <div class="box">
+                              <label for="destination">Destination</label>
+                              <select id="destination" class="custom-select px-4" style="height: 47px;">
+                                  <option selected>Choose</option>
+                                  <option value="1">Agra</option>
+                                  <option value="2">Rajasthan</option>
+                                  <option value="3">Hyderabad</option>
+                                  <option value="4">Mysore</option>
+                                  <option value="5">Chennai</option>
+                                  <option value="6">Kashmir</option>
+                                  <option value="7">Himalayas</option>
+                                  <option value="8">Coimbatore</option>
+                                  <option value="9">Pondicherry</option>
+                                  <option value="10">Goa</option>
+                                  <option value="11">Delhi</option>
+                                  <option value="12">Leh Ladakh</option>
+                                  <!-- Add more options as needed -->
+                              </select>
+                          </div>
+                      </div>
+                     <div class="date box" id="date1" data-target-input="nearest">
+    <label for="departureDate">Departure Date</label>
+    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Select Date" data-target="#date1" data-toggle="datetimepicker" id="departureDate"/>
+</div>
+
+<div class="date box" id="date2" data-target-input="nearest">
+    <label for="returnDate">Return Date</label>
+    <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Select Date" data-target="#date2" data-toggle="datetimepicker" id="returnDate"/>
+</div>
+                      <div class="col-md-3">
+                          <div class="box">
+                              <label for="duration">Duration</label>
+                              <select id="duration" class="custom-select px-4" style="height: 47px;">
+                                  <option selected>Choose</option>
+                                  <option value="1">1 week</option>
+                                  <option value="2">2 weeks</option>
+                                  <option value="3">3 weeks</option>
+                                  <option value="4">4 weeks</option>
+                                  <!-- Add more options as needed -->
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <button class="btn btn-primary btn-block" type="submit">Submit</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Booking End -->
+      
+<!---Start of About Us-->
+<section class="About" id="About">
+    <h1 class="heading"><span>ABOUT</span> US</h1>
+    <div class="row">
+        <div class="image-container">
+            <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/About-image1.jpg" alt="About Us Image">
+            <h3>Voyage Vista!!</h3>
+        </div>
+        <div class="content">
+            <h3>Why WanderLoom ?</h3>
+            <p>"WanderLoom: Igniting your wanderlust with curated adventures. 
+                Explore hidden gems, connect with cultures, and make lifelong memories. 
+                We're more than a travel platform; we're a community of explorers. 
+                Discover the world with local expertise, safety, and flexibility. 
+                Join us at Wanderloom and let every journey be a story worth telling."</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+</section>
+
+
+     <!---End of About Us-->
+     
+
+     <!---Services Start-->
+     <section class="Services" id="Services">
+        <h1 class="heading">SERVICES</h1>
+        
+     <section class="icons-container">
+        <div class="icons">
+           <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Services-image1.png" alt="">
+           <div class="info">
+              <h3>Travel Guide</h3>
+              <span>Navigate the world with confidence using our personalized travel guide service.</span>
+           </div>
+        </div>
+        <div class="icons">
+           <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Services-image2.png" alt="">
+           <div class="info">
+              <h3>Ticket Booking</h3>
+              <span>Experience seamless ticket booking with our platform – your one-stop destination for effortless reservations.</span>
+           </div>
+        </div>
+        <div class="icons">
+           <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Services-image3.png" alt="">
+           <div class="info">
+              <h3>Hotel Booking</h3>
+              <span>Unlock the perfect stay with our hotel booking service, offering a world of accommodations tailored to your budget.</span>
+           </div>
+        </div>
+    </section>
+     </section>
+     <!----Services End-->
+
+     <!------Tour Packages Start-->
+    
+     <section class="TourPackages" id="TourPackages">
+        <h1 class="heading">TOUR<span> PACKAGES</span></h1>
+        <div class="box-container">
+        <div class="box">
+        <span class="discount">-20%</span>
+        <div class="image">
+           <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Agra.jpg" alt="">
+           <div class="icons">
+            <div class="calendar">
+                <i class="far fa-calendar-alt"></i>
+                <span class="days">5 Days</span>
+            </div>
+            <div class="user">
+                <i class="fas fa-user"></i>
+                <span class="people">2 People</span>
+            </div>
+        </div>
+        </div>
+        <div class="content">
+           <h3>Agra</h3>
+           <div class="price">Rs.20000/-<span>Rs.25000/-</span></div>
+        </div>
+
+
+        <div class="box">
+           <span class="discount">-15%</span>
+           <div class="image">
+              <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Goa.jpg" alt="">
+              <div class="icons">
+               <div class="calendar">
+                   <i class="far fa-calendar-alt"></i>
+                   <span class="days">7 Days</span>
+               </div>
+               <div class="user">
+                   <i class="fas fa-user"></i>
+                   <span class="people">2 People</span>
+               </div>
+           </div>
+           </div>
+           <div class="content">
+              <h3>Goa</h3>
+              <div class="price">Rs.15300/-<span>Rs.18000/-</span></div>
+           </div>
+        
+
+           <div class="box">
+              <span class="discount">-5%</span>
+              <div class="image">
+                 <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Rajasthan.jpg" alt="">
+                 <div class="icons">
+                  <div class="calendar">
+                      <i class="far fa-calendar-alt"></i>
+                      <span class="days">7 Days</span>
+                  </div>
+                  <div class="user">
+                      <i class="fas fa-user"></i>
+                      <span class="people">2 People</span>
+                  </div>
+              </div>
+              </div>
+              <div class="content">
+                 <h3>Rajasthan</h3>
+                 <div class="price">Rs.28500/-<span>Rs.30000/-</span></div>
+              </div>
+        
+
+
+              <div class="box">
+                 <span class="discount">-20%</span>
+                 <div class="image">
+                    <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Pondicherry.jpg" alt="">
+                    <div class="icons">
+                     <div class="calendar">
+                         <i class="far fa-calendar-alt"></i>
+                         <span class="days">5 Days</span>
+                     </div>
+                     <div class="user">
+                         <i class="fas fa-user"></i>
+                         <span class="people">2 People</span>
+                     </div>
+                 </div>
+                 </div>
+                 <div class="content">
+                    <h3>Pondicherry</h3>
+                    <div class="price">Rs.12000/-<span>Rs.15000/-</span></div>
+                 </div>
+        
+
+                 <div class="box">
+                    <span class="discount">-18%</span>
+                    <div class="image">
+                       <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Leh Ladakh.jpg" alt="">
+                       <div class="icons">
+                        <div class="calendar">
+                            <i class="far fa-calendar-alt"></i>
+                            <span class="days">5 Days</span>
+                        </div>
+                        <div class="user">
+                            <i class="fas fa-user"></i>
+                            <span class="people">2 People</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="content">
+                       <h3>Leh Ladakh</h3>
+                       <div class="price">Rs.22960/-<span>Rs.28000/-</span></div>
+                    </div>
+        
+
+
+                    <div class="box">
+                       <span class="discount">-13%</span>
+                       <div class="image">
+                          <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Coimbatore.jpg" alt="">
+                          <div class="icons">
+                           <div class="calendar">
+                               <i class="far fa-calendar-alt"></i>
+                               <span class="days">5 Days</span>
+                           </div>
+                           <div class="user">
+                               <i class="fas fa-user"></i>
+                               <span class="people">2 People</span>
+                           </div>
+                       </div>
+                       </div>
+                       <div class="content">
+                          <h3>Coimbatore</h3>
+                          <div class="price">Rs.17400/-<span>Rs.20000/-</span></div>
+                       </div>
+        
+                       
+                    <div class="box">
+                       <span class="discount">-18%</span>
+                       <div class="image">
+                          <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Kashmir.jpg" alt="">
+                          <div class="icons">
+                           <div class="calendar">
+                               <i class="far fa-calendar-alt"></i>
+                               <span class="days">5 Days</span>
+                           </div>
+                           <div class="user">
+                               <i class="fas fa-user"></i>
+                               <span class="people">2 People</span>
+                           </div>
+                       </div>
+                       </div>
+                       <div class="content">
+                          <h3>Kashmir</h3>
+                          <div class="price">Rs.20500/-<span>Rs.25000/-</span></div>
+                       </div>
+        
+                       
+                    <div class="box">
+                       <span class="discount">-25%</span>
+                       <div class="image">
+                          <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Mysore.jpg" alt="">
+                          <div class="icons">
+                           <div class="calendar">
+                               <i class="far fa-calendar-alt"></i>
+                               <span class="days">7 Days</span>
+                           </div>
+                           <div class="user">
+                               <i class="fas fa-user"></i>
+                               <span class="people">2 People</span>
+                           </div>
+                       </div>
+                       </div>
+                       <div class="content">
+                          <h3>Mysore</h3>
+                          <div class="price">Rs.13500/-<span>Rs.18000/-</span></div>
+                       </div>
+           
+
+                    <div class="box">
+                       <span class="discount">-10%</span>
+                       <div class="image">
+                          <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Delhi.jpg" alt="">
+                          <div class="icons">
+                           <div class="calendar">
+                               <i class="far fa-calendar-alt"></i>
+                               <span class="days">7 Days</span>
+                           </div>
+                           <div class="user">
+                               <i class="fas fa-user"></i>
+                               <span class="people">2 People</span>
+                           </div>
+                       </div>
+                       </div>
+                       <div class="content">
+                          <h3>Delhi</h3>
+                          <div class="price">Rs.27000/-<span>Rs.30000/-</span></div>
+                       </div>
+                    </div>    
+        </div>
+        </section>
+<!----Tour Packages------>
+
+<!----Contact------------>
+<section class="Contact" id="Contact">
+   <h1 class="heading"><span>CONTACT </span>US</h1>
+   <div class="row">
+      <form action="">
+         <input type="text" placeholder="Name" class="box">
+         <input type="email" placeholder="Email" class="box">
+         <input type="number" placeholder="Number" class="box">
+         <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+         <input type="submit" value="Send Message" class="btn">
+      </form>
+      <div class="image">
+         <img src="C:/Users/HITHA/OneDrive/Documents/webpage/image/Contact Us.jpg" alt="">
+      </div>
+   </div>
+</section>
+<!--------Contact End------->
+
+<!---------Footer Start--------->
+<section class="footer">
+   <div class="box-container">
+      <div class="box">
+         <h3>Quick Links</h3>
+         <a href="#">Home</a>
+         <a href="#">About</a>
+         <a href="#">Products</a>
+         <a href="#">Review</a>
+         <a href="#">Contact</a>
+      </div>
+
+      <div class="box">
+         <h3>Contact Info</h3>
+         <a href="#">+123-456-7890</a>
+         <a href="#">abc@gmail.com</a>
+         <a href="#">Bangalore,India-560072</a>
+      </div>
+   </div>
+</section>
+    <!-- Footer End -->
+    <script src="script.js"></script>  
+    
+</body>
+</html>
